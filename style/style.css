@@ -4,3 +4,43 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    height: 100vh;
+}
+header {
+    background-color: yellow;
+    height: 10%;
+}
+
+main {
+    background-color: red;
+    height: 80%;
+    overflow: hidden;
+    
+}
+
+.center-block {
+    flex: 1;
+    overflow-y: scroll;
+    height: 100%;
+
+}
+
+.lateral-block {
+    width: 20rem;
+    height: 100%;
+    background-color: chartreuse;
+    overflow: hidden;
+}
+
+footer {
+    background-color: blueviolet;
+    height: 10%;
+}
