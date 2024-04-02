@@ -109,12 +109,13 @@ i {
 
 .card:hover .fa-circle-play {
     display: block;
+    cursor: pointer;
 
 }
 
 .card:hover img {
     opacity: 0.5;
-
+    cursor: pointer;
 }
 
 .title, .sub-title{
