@@ -4,43 +4,153 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
+/* UTILITY */
 .flex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-body {
-    height: 100vh;
+li {
+    list-style-type: none;
+    margin: 1rem 0;
 }
-header {
-    background-color: yellow;
+
+h1 {
+    margin: 1rem;
+}
+
+h4 {
+    margin: 0rem 1rem 1rem 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.radius {
+    border-radius: 50%;
+}
+
+.button {
+    display: inline-block;
+    font-size: 0.8em;
+    background-color: white;
+    margin: 1rem;
+    padding: 0.5rem 3rem;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+i {
+    margin-right: 0.5rem;
+}
+/* UTILITY */
+
+/* TOPBAR */
+.topbar {
+    background-color: lightblue;
     height: 10%;
+    justify-content: end;  
+}
+
+/* TOPBAR */
+
+/* SIDEBAR */
+.sidebar {
+    background-color: green;
+    height: 100%;
+    width: 15%;
+    padding: 1rem;
+    position: relative;
+}
+
+.down-sidebar {
+    position: absolute;
+    bottom: 0;
+}
+
+.nav-list li{
+    margin: 1rem;
+    font-size: small;
+}
+
+/* SIDEBAR */
+
+/* MAIN-CONTENT */
+
+.container-cards {
+    justify-content: start;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+
+.cards {
+    margin-bottom: 1rem;
+}
+
+.card {
+    width: 180px;
+    height: 180px;
+    position: relative;
+    opacity: 1;
+    transition: 1s;
+}
+
+.card i{
+    display: none;
+    font-size: 3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.card:hover .fa-circle-play {
+    display: block;
+
+}
+
+.card:hover img {
+    opacity: 0.5;
+
+}
+
+.title, .sub-title{
+    text-align: center;
+    margin: 0.5rem;
 }
 
 main {
-    background-color: red;
-    height: 80%;
-    overflow: hidden;
+    height: 90vh;
+    width: 100%;
     
 }
 
-.center-block {
-    flex: 1;
-    overflow-y: scroll;
-    height: 100%;
-
-}
-
-.lateral-block {
-    width: 20rem;
-    height: 100%;
-    background-color: chartreuse;
-    overflow: hidden;
-}
-
+/* MAIN-CONTENT */
 footer {
-    background-color: blueviolet;
-    height: 10%;
+    height: 10vh;
+}
+
+.main-content {
+    background-color: burlywood;
+    height: 100%;
+    width: 85%;
+}
+
+
+
+.content {
+    background-color: aqua;
+    height: 90%;    
+    overflow-y: scroll;
+
+}
+
+
+
+/* FOOTER */
+footer {
+    background-color: lightslategrey;
 }
