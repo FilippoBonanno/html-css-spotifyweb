@@ -28,6 +28,11 @@ a {
     text-decoration: none;
 }
 
+.margin-bottom {
+    margin-bottom: 1rem;
+
+}
+
 .radius {
     border-radius: 50%;
 }
@@ -115,7 +120,6 @@ i {
 
 .card:hover img {
     opacity: 0.5;
-    cursor: pointer;
 }
 
 .title, .sub-title{
@@ -130,9 +134,7 @@ main {
 }
 
 /* MAIN-CONTENT */
-footer {
-    height: 10vh;
-}
+
 
 .main-content {
     background-color: burlywood;
@@ -153,5 +155,71 @@ footer {
 
 /* FOOTER */
 footer {
+    height: 10vh;
     background-color: lightslategrey;
+}
+
+
+.footer-container  {
+    justify-content: space-between;
+    height: 100%;
+}
+
+.left-footer {
+    width: 15%;
+    background-color: yellow;
+    justify-content: space-around;
+}
+
+.middle-footer {
+    width: 40%;
+    height: 100%;
+    background-color: chocolate;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.commands {
+    gap: 1rem;
+}
+
+.track {
+    justify-content: space-around;
+}
+
+.rod {  
+    width: 35rem;
+    height: 4px;
+    border-radius: 3px;
+    background-color: red;
+    margin: auto 1rem;
+
+}
+
+.rod {
+    justify-content: flex-start;
+
+}
+
+.color-green {
+    width: 7rem;
+    height: 4px;
+    border-radius: 3px;
+    background-color: grey;
+}
+
+.circle-dot {
+    display: none;
+
+}
+
+.right-footer {
+    width: 15%;
+    background-color: violet;
+}
+
+.img-footer {
+    width: 50px;
+    height: 50px;
+    margin-right: -2rem;
 }
