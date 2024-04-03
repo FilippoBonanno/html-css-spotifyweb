@@ -56,6 +56,10 @@ i {
 .grey-color {
     color: rgb(121, 123, 128);
 }
+
+.relative  {
+    position: relative;
+}
 /* UTILITY */
 
 /* TOPBAR */
@@ -104,9 +108,8 @@ i {
 }
 
 .overflow span{
-    position: fixed;
-    line-height: 2.5rem;
-    
+    position: absolute;
+    line-height: 2.5rem; 
 }
 
 .down-sidebar {
@@ -221,9 +224,18 @@ footer {
     height: 100%;
 }
 
+.middle-footer i,
+.right-footer i {
+    color: white;
+}
+
 .left-footer {
     width: 15rem;
     justify-content: space-around;
+}
+
+.icon-footer i{
+    color: rgb(121, 123, 128);
 }
 
 .right-footer {
@@ -257,7 +269,6 @@ footer {
 .track {
     justify-content: space-around;
     width: 100%;
-
 }
 
 .rod {  
@@ -283,8 +294,18 @@ footer {
 
 .circle-dot {
     display: none;
-
 }
+
+.rod:hover .color-green{
+    background-color: green;
+    cursor: pointer;
+}
+.rod:hover .circle-dot{
+    display: block;
+    cursor: pointer;
+}
+
+
 
 
 
