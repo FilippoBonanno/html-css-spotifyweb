@@ -67,7 +67,7 @@ i {
 /* TOPBAR */
 .topbar {
     background-color: rgb(8, 11, 18);
-    height: 10%;
+    height: 5rem;
     justify-content: end;  
 }
 
@@ -95,7 +95,7 @@ i {
 .sidebar {
     background-color: black;
     height: 100%;
-    width: 15rem;
+    width: 13rem;
     padding: 1rem;
     position: relative;
 }
@@ -157,16 +157,6 @@ i {
     color: white;
 }
 
-.card:hover .fa-circle-play {
-    display: block;
-    cursor: pointer;
-
-}
-
-.card:hover img {
-    opacity: 0.5;
-}
-
 .title, .sub-title{
     text-align: center;
     margin: 0.5rem;
@@ -191,25 +181,19 @@ main {
     
 }
 
-/* MAIN-CONTENT */
-
-
 .main-content {
     background-color: burlywood;
     height: 100%;
-    width: calc(100% - 15rem);
+    width: calc(100% - 13rem);
 }
-
-
 
 .content {
     background-color: rgb(20, 25, 34);
-    height: 90%;    
+    height: calc(100% - 5em);    
     overflow-y: scroll;
 
 }
-
-
+/* MAIN-CONTENT */
 
 /* FOOTER */
 footer {
@@ -318,9 +302,33 @@ li:hover .grey-color {
 .footer-container i:hover {
     transform: scale(1.5);
 }
+
+.card:hover .fa-circle-play {
+    display: block;
+    cursor: pointer;
+}
+
+.card:hover img {
+    opacity: 0.5;
+}
 /* HOVER */
 
+/* MEDIA QUERY */
 
+@media screen and (max-width: 800px) {
+    .left-footer,
+    .right-footer {
+        width: 10rem;
+        font-size: 0.8em;
+    }
+
+    .icon-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+  }
 
 
 
