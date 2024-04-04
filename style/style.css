@@ -115,8 +115,8 @@ i {
 }
 
 .down-sidebar {
-    position: absolute;
-    bottom: 0;
+    position: fixed;
+    bottom: 5.7rem;
 }
 
 .nav-list li{
