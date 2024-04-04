@@ -124,6 +124,14 @@ i {
     font-size: small;
 }
 
+.little {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: calc(100% - 5.7rem);
+    display: none;
+}
+
 
 /* SIDEBAR */
 
@@ -327,8 +335,28 @@ li:hover .grey-color {
         flex-direction: column;
     }
 
+  }
+
+  @media screen and (max-width: 552px) {
+    .little {
+        display: block;
+    }
+
+    .sidebar {
+        width: 3.5rem;
+    }
+
+    #hidden *{
+        display: none;
+        
+    }
+
+    .main-content {
+        width: calc(100% - 3.5rem);
+    }
 
   }
+
 
 
 
