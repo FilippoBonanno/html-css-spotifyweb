@@ -307,6 +307,11 @@ footer {
 li:hover .grey-color {
     color: white;
 }
+
+.nav .grey-color:hover  {
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid white;
+}
 /* HOVER */
 
 
