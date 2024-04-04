@@ -241,14 +241,6 @@ footer {
     height: 50px;
 }
 
-.artist-footer {
-   
-}
-
-.icon-footer {
-    
-}
-
 .middle-footer {
     width: 40%;
     height: 100%;
@@ -356,6 +348,29 @@ li:hover .grey-color {
     }
 
   }
+
+  @media screen and (max-height: 625px) {
+    .overflow {
+        display: none;
+    }
+    
+  }
+
+  @media screen and (max-height: 415px) {
+    .playlist {
+        display: none;
+    }
+    
+  }
+
+  @media screen and (max-height: 366px) {
+    .home {
+        display: none;
+    }
+    
+  }
+
+
 
 
 
