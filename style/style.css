@@ -355,12 +355,14 @@ li:hover .grey-color {
     }
 
     .commands {
-        gap: 0.1rem;
+        gap: 0rem;
+        font-size: 0.7em;
     }
 
     .left-footer,
     .right-footer {
         width: 8rem;
+        font-size: 0.6em;
     }
 
   }
