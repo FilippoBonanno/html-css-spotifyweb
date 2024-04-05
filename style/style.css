@@ -351,11 +351,11 @@ li:hover .grey-color {
 
   @media screen and (max-width: 498px) {
     .middle-footer{
-        width: 33%;
+        width: 32%;
     }
 
     .commands {
-        gap: 0.5rem;
+        gap: 0.1rem;
     }
 
     .left-footer,
