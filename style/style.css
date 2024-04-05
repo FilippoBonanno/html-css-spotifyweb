@@ -349,6 +349,22 @@ li:hover .grey-color {
 
   }
 
+  @media screen and (max-width: 498px) {
+    .middle-footer{
+        width: 33%;
+    }
+
+    .commands {
+        gap: 0.5rem;
+    }
+
+    .left-footer,
+    .right-footer {
+        width: 8rem;
+    }
+
+  }
+
   @media screen and (max-height: 625px) {
     .overflow {
         display: none;
